@@ -274,6 +274,10 @@ conan_basic_setup()''')
                 libs.append("aws-cpp-sdk-" + sdk)
         libs.append("aws-cpp-sdk-core")
 
+        libs.append("aws-c-common")
+        libs.append("aws-c-event-stream")
+        libs.append("aws-checksums")
+
         self.cpp_info.libs = libs
         self.cpp_info.libdirs = ["lib"]
         self.cpp_info.includedirs = ["include"]
