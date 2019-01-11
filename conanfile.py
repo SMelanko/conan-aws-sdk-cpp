@@ -245,6 +245,7 @@ conan_basic_setup()''')
         cmake.definitions["ENABLE_UNITY_BUILD"] = "ON"
         cmake.definitions["ENABLE_TESTING"] = "OFF"
         cmake.definitions["AUTORUN_UNIT_TESTS"] = "OFF"
+        cmake.definitions["CUSTOM_MEMORY_MANAGEMENT"] = 0
 
         cmake.definitions["MINIMIZE_SIZE"] = "ON" if self.options.min_size else "OFF"
         cmake.definitions["BUILD_SHARED_LIBS"] = "ON" if self.options.shared else "OFF"
