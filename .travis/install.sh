@@ -22,7 +22,8 @@ fi
 
 if [[ "$(uname -s)" == 'Linux' ]]; then
     sudo apt-get update
-    sudo apt-get install ia32-libs-dev
+    sudo apt-get install lib32z1-dev
+    sudo apt-get install lib32bz2-dev
     sudo apt-get install gcc-multilib
 fi
 
