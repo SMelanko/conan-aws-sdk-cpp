@@ -20,13 +20,6 @@ if [[ "$(uname -s)" == 'Darwin' ]]; then
     pyenv activate conan
 fi
 
-if [[ "$(uname -s)" == 'Linux' ]]; then
-    sudo apt-get update
-    sudo apt-get install lib32z1-dev
-    sudo apt-get install lib32bz2-dev
-    sudo apt-get install gcc-multilib
-fi
-
 pip install conan --upgrade
 pip install conan_package_tools
 
