@@ -13,7 +13,7 @@
 ### Basic setup
 
 ```bash
-$ conan install aws-sdk-cpp/1.7.31@smela/stable
+$ conan install aws-sdk-cpp/1.7.113@smela/stable
 ```
 
 ### Project setup
