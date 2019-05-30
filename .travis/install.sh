@@ -21,8 +21,6 @@ if [[ "$(uname -s)" == 'Darwin' ]]; then
 fi
 
 if [[ "$(uname -s)" == 'Linux' ]]; then
-    sudo apt-get update
-    sudo apt-get upgrade
     sudo apt-get install gcc-multilib
 fi
 
